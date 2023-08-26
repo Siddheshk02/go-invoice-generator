@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	generator "github.com/angelodlfrtr/go-invoice-generator"
+	generator "github.com/Siddheshk02/go-invoice-generator"
 )
 
 func main() {
