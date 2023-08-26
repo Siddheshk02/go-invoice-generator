@@ -30,7 +30,7 @@ func New(docType string, options *Options) (*Document, error) {
 
 	// Prepare accounting
 	doc.ac = accounting.Accounting{
-		Symbol:    doc.Options.CurrencySymbol,
+		Symbol:    doc.Options.CurrencyINRSymbol,
 		Precision: doc.Options.CurrencyPrecision,
 		Thousand:  doc.Options.CurrencyThousand,
 		Decimal:   doc.Options.CurrencyDecimal,
